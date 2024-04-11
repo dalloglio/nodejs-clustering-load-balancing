@@ -1,0 +1,19 @@
+loadtest -n 1000 -c 100 --cores 1 http://localhost:3000
+
+Target URL:          http://localhost:3000
+Max requests:        1000
+Concurrent clients:  100
+Agent:               none
+
+Completed requests:  1000
+Total errors:        0
+Total time:          260.506 s  (~04 minutes)
+Mean latency:        24785.5 ms (~25 seconds)
+Effective rps:       4
+
+Percentage of requests served within a certain time
+  50%      25892 ms
+  90%      26414 ms
+  95%      26553 ms
+  99%      26724 ms
+ 100%      27004 ms (longest request)
